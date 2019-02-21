@@ -1,8 +1,41 @@
 body {
-  background-color: silver;
+  background-color: #ffffff;
 }
-img {
+
+#first {
+  background-image: url("/img/me_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 100%;
+  height: auto;
 }
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.btn btn-primary {
+  background-color: white;
+}
+
+#imgTag {
+  border-radius: 50px;
+}
+
+#copy {
+  font-size: 4vmax, 0.5vmin;
+}
+#contactMe {
+  text-align: right;
+  font-size: 0.5vw;
+}
+
 h1 {
   margin-left: 20px;
 }
