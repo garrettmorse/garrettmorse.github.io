@@ -21,50 +21,55 @@
   </head>
   <body onload="javascript:ScaleSize();" onresize="history.go(0)">
     <div class="container-fluid">
-      <div
-        id="first"
-        style="height: auto; max-width:100%;"
-        class="row d-flex min-vh-100"
-      >
-        <div class="col-md-2"></div>
+      <div id="first" class="row d-flex min-vh-100 no-gutters">
         <div class="align-self-md-center col">
-          <h1 class="text-center text-white">
+          <h1 style="font-size: 6vh" ; class="text-center text-white">
             Hi! I'm
-            <p style="font-size: 2em">{ Garrett Morse }</p>
+            <p style="font-size: 10vh;">{ Garrett Morse }</p>
           </h1>
-          <h6 class="text-center text-white" style="font-family:sans-serif;">
+          <h6
+            class="text-center text-white"
+            style="font-size: 2vh; font-family:sans-serif;"
+          >
             My website is currently under construction! Please check back later.
           </h6>
         </div>
-        <div class="align-sel"></div>
-        <div class="col-md-2"></div>
       </div>
       <div class="row d-flex">
-        <!-- <div class="col text-center"><h4>What I'm Doing</h4></div> -->
+        <div class="col text-center">
+          <h4 style="font-size: 3.5vh;">What I'm Doing</h4>
+        </div>
       </div>
       <div class="row d-flex">
-        <!-- <div class="col text-center"><h4>What I've Done</h4></div> -->
+        <div class="col text-center">
+          <h4 style="font-size: 3.5vh;">What I've Done</h4>
+        </div>
       </div>
-    </div>
+      <div class="row d-flex">
+        <div class="col text-center">
+          <h4 style="font-size: 3.5vh;">What I Believe</h4>
+        </div>
+      </div>
 
-    <footer class="container-fluid">
-      <div class="row no-gutters">
-        <div class="col-sm text-right">
-          <a
-            class="text-muted"
-            href="https://github.com/garrettmorse/garrettmorse.github.io"
-            >GitHub
-          </a>
+      <footer style="font-size: 2vh;" class="container-fluid">
+        <div class="row no-gutters">
+          <div class="col-sm text-right">
+            <a
+              class="text-muted"
+              href="https://github.com/garrettmorse/garrettmorse.github.io"
+              >GitHub
+            </a>
+          </div>
+          <div class="col-auto">
+            <p class="text-center">
+              <small>&nbsp; | &copy; 2019 Garrett Morse | &nbsp;</small>
+            </p>
+          </div>
+          <div class="col-sm text-left">
+            <a class="text-muted" href="mailto:morse.172@osu.edu">Contact Me</a>
+          </div>
         </div>
-        <div class="col-auto">
-          <p class="text-center">
-            <small>&nbsp; | &copy; 2019 Garrett Morse | &nbsp;</small>
-          </p>
-        </div>
-        <div class="col-sm text-left">
-          <a class="text-muted" href="mailto:morse.172@osu.edu">Contact Me</a>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
