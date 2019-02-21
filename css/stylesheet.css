@@ -8,10 +8,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: 75% 50%;
-  max-width: 100%;
-  height: auto;
-  min-width: 50%;
-  /* position: relative; */
 }
 
 .row.no-gutters {
