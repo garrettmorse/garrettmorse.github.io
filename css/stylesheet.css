@@ -2,6 +2,22 @@ body {
   background-color: whitesmoke;
 }
 
+.pSize {
+  font-size: 2.4vh;
+}
+
+.pHeadSize {
+  font-size: 2.5vh;
+}
+
+.jobTitle {
+  color: green;
+  margin-bottom: 0px;
+}
+
+.jobLoc {
+  margin-bottom: 5px;
+}
 #first {
   background-image: url("/img/me_2.jpg");
   background-repeat: no-repeat;
@@ -14,6 +30,7 @@ body {
   margin-right: 0;
   margin-left: 0;
 }
+
 .row.no-gutters > [class^="col-"],
 .row.no-gutters > [class*=" col-"] {
   padding-right: 0;
