@@ -175,5 +175,15 @@
         </div>
       </footer>
     </div>
+    <script>
+      if (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(
+          navigator.userAgent
+        )
+      ) {
+        var mobileImg = document.getElementById("first");
+        mobileImg.id = "mobile";
+      }
+    </script>
   </body>
 </html>
