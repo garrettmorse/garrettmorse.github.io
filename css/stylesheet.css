@@ -1,5 +1,8 @@
 body {
   background-color: whitesmoke;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-size: contain;
 }
 
 .pSize {
@@ -21,12 +24,14 @@ body {
 #mobile {
   background-image: url("/img/me_2.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-position: 72% 50%;
   max-width: 100%;
+  margin: 0;
 }
 
 #first {
