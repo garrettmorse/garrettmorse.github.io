@@ -19,16 +19,13 @@ body {
   margin-bottom: 5px;
 }
 #mobile {
-  background-image: url();
+  background-image: url("me_2.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
-  background-position: 75% 50%;
-  padding: 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  margin: 0;
   max-width: 100%;
 }
 
