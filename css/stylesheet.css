@@ -53,6 +53,7 @@ body {
   -o-background-size: cover;
   margin: 0;
   max-width: 100%;
+  height: auto;
 }
 
 .row.no-gutters {
