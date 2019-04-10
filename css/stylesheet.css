@@ -9,6 +9,13 @@ body {
   font-size: 2.4vh;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .pHeadSize {
   font-size: 2.5vh;
 }
