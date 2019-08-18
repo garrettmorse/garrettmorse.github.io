@@ -1,7 +1,10 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: whitesmoke;
   max-width: 100%;
-  overflow-x: hidden;
   background-size: contain;
 }
 
@@ -37,7 +40,6 @@ body {
   -o-background-size: cover;
   background-position: 72% 50%;
   max-width: auto;
-  margin: 0;
 }
 
 #first {
