@@ -37,7 +37,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: 72% 50%;
-  max-width: 100%;
+  max-width: auto;
   margin: 0;
 }
 
