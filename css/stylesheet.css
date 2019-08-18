@@ -31,8 +31,7 @@ body {
 #mobile {
   background-image: url("/img/me_2.jpg");
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-attachment: fixed;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
