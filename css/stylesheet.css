@@ -34,7 +34,8 @@ body {
 #mobile {
   background-image: url("/img/me_2.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 10% 50%;
+  background-attachment: inherit;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,7 +46,7 @@ body {
 #first {
   background-image: url("/img/me_2.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 10% 50%;
   background-position: 75% 50%;
   background-attachment: fixed;
   display: block;
