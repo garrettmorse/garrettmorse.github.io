@@ -20,7 +20,7 @@
         AOS.refresh();
       });
     </script>
-    <div class="container-fluid auto" style="padding:0; margin:0 1em 1em 3%">
+    <div class="container-fluid auto fix" style="padding: 0">
       <div id="first" class="row d-flex min-vh-100">
         <div class="align-self-center col">
           <h1
@@ -163,6 +163,10 @@
       ) {
         var mobileImg = document.getElementById("first");
         mobileImg.id = "mobile";
+      }
+      {
+        var containerMobile = document.getElementById("fix");
+        containerMobile.id = "mobilefix";
       }
     </script>
   </body>
