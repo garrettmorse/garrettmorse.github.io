@@ -43,11 +43,6 @@ body {
   max-width: auto;
 }
 
-#mobilefix {
-  padding: 0;
-  margin: 0 1em 1em 3%;
-}
-
 #first {
   background-image: url("/img/me_2.jpg");
   background-repeat: no-repeat;
