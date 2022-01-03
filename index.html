@@ -110,9 +110,9 @@
               internal web frameworks and data visualization tools (services closest to Apache Kafka and
               <a href='https://perspective.finos.org/Finos'>Finos Perspective</a>).
             </p>
-              <p class="pSize">
-                I am very grateful to have spent the summer with JPMorgan Chase and I'm looking forward
-                to applying the experience gained in other professional capacities.
+            <p class="pSize">
+              I am very grateful to have spent the summer with JPMorgan Chase and I'm looking forward
+              to applying the experience gained in other professional capacities.
             </p>
           </div>
           <div class="col-sm"></div>
@@ -215,7 +215,7 @@
       </div>
       <div class="col-auto">
         <p class="text-center">
-          <small>&nbsp; | &copy; 2020 Garrett Morse | &nbsp;</small>
+          <small id="copyright"></small>
         </p>
       </div>
       <div class="col text-left">
@@ -235,6 +235,10 @@
       var containerMobile = document.getElementById("fix");
       containerMobile.id = "mobilefix";
     }
+    var copyright = document.getElementById("copyright");
+    copyright.insertAdjacentHTML("afterbegin",
+      `&nbsp; | &copy; ${new Date().getFullYear()} Garrett Morse | &nbsp;`
+    );
   </script>
 </body>
 
